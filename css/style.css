@@ -149,8 +149,29 @@ p {
 
 /*Tablet*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
+    .contFlex {
+        margin-top: 10px;
+    }
+    
     h1 {
         font-size: 2rem;
     }
-}
 
+    .fondoPer {
+        border-radius: 10px 10px 0px 0px;
+        height: 200px;
+        min-width: 0px;
+        width: 100%;
+    }
+
+    .tarjeta {
+        position: relative;
+        background-color: #f3f3f3;
+        border-radius: 10px 10px 0px 0px;
+        height: 800px;
+        width: 45vw;
+        margin: 5px;
+        box-shadow: 0px 5px 5px 0px grey;
+        min-width: 230px;
+    }
+}
