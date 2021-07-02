@@ -1,0 +1,156 @@
+* {
+    margin:0px;
+    font-size: 16px;
+}
+
+#topHead{
+    background-color: aquamarine;
+    height:20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#botHead{
+    position: sticky;
+    background-color:rgb(0, 93, 180);
+    padding-top:20px;
+    padding-left:50px ;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 10px 2px rgb(61, 61, 61);
+    top:0px;
+    z-index: 1;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+.botVerMas {
+    position: absolute;
+    background-color: rgb(92, 149, 255);
+    padding: 15px 25px;
+    border-radius: 5px 5px 5px 5px ;
+    text-align: center;
+    width: 100px;
+    left: calc(50% - 75px);
+    bottom: 50px;
+}
+
+.contFlex {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.corazon {
+    position: relative;
+    width: 40px;
+    top: -250px;
+    left: -80px;
+}
+
+.fondoPer {
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+    min-width: 350px;
+    width: 100%;
+}
+
+.fotoPer {
+    position: relative;
+    height: 100px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 5px 5px 1px grey;
+    left: calc(50% - 50px);
+    top:-50px;
+}
+
+footer {
+    background-color: rgb(92, 149, 255);
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 100%;
+    bottom:0px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+h1 {    
+    font-size: 3rem;
+    color: azure;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 50;
+}
+
+h3{
+    font-size: 1.5rem;
+    position: relative;
+    top:-30px;
+    text-align: center;
+}
+
+p { 
+    font-size: 1.2rem;
+    padding-left: 20px;;
+    padding-right: 20px;
+}
+
+.tarjeta {
+    position: relative;
+    background-color: #f3f3f3;
+    border-radius: 10px 10px 0px 0px;
+    height: 700px;
+    width: 20%;
+    margin: 20px;
+    box-shadow: 0px 5px 5px 0px grey;
+    flex-shrink: 0;
+    min-width: 350px;
+}
+
+
+/*Celular*/
+
+@media screen and (max-width: 600px) {
+    #botHead {
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    footer {
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 0px;
+        position: fixed;
+        width: 100%;
+        bottom:0px;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+
+/*Tablet*/
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
